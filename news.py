@@ -1,7 +1,7 @@
 import urllib.request
 import xml.etree.ElementTree as ET
 
-url = "https://www.oricon.co.jp/rss/news/"
+url = "https://news.google.com/rss/search?q=%E8%8A%B8%E8%83%BD&hl=ja&gl=JP&ceid=JP:ja"
 try:
     with urllib.request.urlopen(url, timeout=15) as response:
         data = response.read()
