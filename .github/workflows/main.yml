@@ -22,4 +22,4 @@ jobs:
           python-version: '3.12'
 
       - name: Collect news
-        run: python news.py
+          run: python news.py > news.txt
